@@ -1,19 +1,17 @@
-2. Deploy Frontend
+ Deploy Frontend
    Use:
    - Vercel
    - Netlify
 
-Set ``` env VITE_BACKEND_URL=[https://mycollaborativewhiteboard-backend.onrender.com](https://mycollaborativewhiteboard-backend.onrender.com) 
-``` in your .env.production.
 
-3. MongoDB Atlas
+MongoDB Atlas
    - Create a cluster on MongoDB Atlas
    - Whitelist your backend IP
    - Replace local URI with Atlas URI in .env
 
 -------
 
-## ✅ Status
+##Status
 - Join/Create room via code
 - Real-time drawing sync
 - Cursor sync
